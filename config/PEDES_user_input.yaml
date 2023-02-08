@@ -44,8 +44,8 @@ word_num: 30
 rnn_type: LSTM
 TEXT_EMBEDDING_DIM: 256
 
-data_folder_test_a: './CUHK_PEDES/imgs'
+data_folder_test_a: './imgs'
 data_list_test_a: ./evaluation_user_input.json
-data_folder_test_b: './CUHK_PEDES/imgs'
+data_folder_test_b: './imgs'
 data_list_test_b: ./evaluation_user_input.json
 # 'dir_to_CUHK-PEDES/CUHK-PEDES/imgs'
