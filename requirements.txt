@@ -5,6 +5,13 @@ numpy==1.14.5
 imageio==2.3.0
 Pillow==10.0.0
 opencv-python==3.4.2.16
-nltk==3.3
+
+# Security maintenance:
+# The original project used nltk==3.3.
+# Updated to nltk==3.10.3 to address known security vulnerabilities
+# reported by GitHub Dependabot. Project source code is unchanged.
+# Note: newer NLTK versions require Python >= 3.10 if recreating the environment.
+nltk==3.10.3
+
 PyYAML==3.12
 scikit-image==0.14.1
